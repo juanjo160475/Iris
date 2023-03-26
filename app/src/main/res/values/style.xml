@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <style name="botones">
+        <item name="android:background">@drawable/botones</item>
+        <item name="android:layout_margin">@dimen/Botones_margin</item>
+    </style>
+
+    <style name="bordes">
+        <item name="android:background">@drawable/bordes</item>
+        <item name="android:layout_margin">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="espacio">
+        <item name="android:layout_marginBottom">@dimen/Botones_margin</item>
+    </style>
+
+</resources>

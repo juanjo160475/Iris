@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Iris</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Recomendaciones</string>
+    <string name="title_notifications">Prestadores</string>
+    <string name="title_fotografias">Fotos</string>
+    <string name="title_iris">Resultado</string>
+    <string name="title_diagnostico">Diagnostico</string>
+    <string name="btn_fotos">Fotos</string>
+    <string name="btn_diagnostico">Diagnostico</string>
+    <string name="btn_historial">Historial</string>
+
+
+    <!--  fragmen diagnostico-->
+    <string name="btn_resultado">Siguiente</string>
+    <string name="btn_continuar">Continuar</string>
+    <string name="titulo_progres_1">Fase 1</string>
+    <string name="titulo_progres_2">Fase 2</string>
+    <string name="sub_titulo_progres_1">Modelo de Iridiologia de Bernard Jesen</string>
+    <string name="sub_titulo_progres_2">Modelo de Inteligencia Artificial - Algoritmo Yolo</string>
+    <string name="encabezado_progres_2">Forward Propagation</string>
+    <string name="encabezado_progres_3">Back Propagation</string>
+
+    <!-- fragmrn resultados-->
+
+    <string name="subtitulo">Resultado del modelo de inteligencia artificial - Algoritmo Yolo de Deep Learning</string>
+    <string name="precision">El prediagnostico del modelo dio con un nivel de precision del 95%</string>
+    <string name="subtitulo_modelo_iris">Resultado Del Modelo de Iridiologia Modelo deDr Bernard Jensen</string>
+    <string name="prediagnostico_modelo">El prediagnostico del modelo dio:</string>
+    <string name="coincidencia">Grado de coincidencia de los Modelos: 95%</string>
+
+    <string name="item">Item</string>
+    <string name="fecha">Fecha</string>
+    <string name="title_activity_main_login">MainActivityLogin</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Login</string>
+    <string name="second_fragment_label">Registrarse</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- login-->
+    <string name="persona_nombre">Nombre</string>
+    <string name="persona_apellido">Apellido</string>
+    <string name="persona_password">Password</string>
+    <string name="persona_nacimiento">Fecha Nacimiento</string>
+    <string name="persona_telefono">Telefono</string>
+    <string name="persona_direccion">Direccion</string>
+    <string name="persona_email">Email</string>
+    <string name="persona_sexo">Sexo</string>
+    <string name="persona_masculino">Masculino</string>
+    <string name="persona_femenino">Femenino</string>
+    <string name="persona_dni">Dni</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="registrar">Registrar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.vasallo.iris.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_historialFragment"
+            app:destination="@id/historialFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_fotosFragment"
+            app:destination="@id/fotosFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_recomendaciones"
+        android:name="com.vasallo.iris.ui.recomendaciones.RecomendacionesFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_recomendaciones" />
+    <fragment
+        android:id="@+id/navigation_prestadores"
+        android:name="com.vasallo.iris.ui.prestadores.PrestadoresFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_prestadores"/>
+
+
+    <fragment
+        android:id="@+id/fotosFragment"
+        android:name="com.vasallo.iris.ui.fotos.FotosFragment"
+        android:label="@string/title_fotografias"
+        tools:layout="@layout/fragment_fotos" >
+        <action
+            android:id="@+id/action_fotosFragment_to_diagnosticoFragment"
+            app:destination="@id/diagnosticoFragment" />
+        <action
+            android:id="@+id/action_fotosFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/diagnosticoFragment"
+        android:name="com.vasallo.iris.ui.diagnostico.DiagnosticoFragment"
+        android:label="@string/title_diagnostico"
+        tools:layout="@layout/fragment_diagnostico" >
+        <action
+            android:id="@+id/action_diagnosticoFragment_to_modeloIridiologicoFragment"
+            app:destination="@id/modeloIridiologicoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/modeloIridiologicoFragment"
+        android:name="com.vasallo.iris.ui.resultados.ModeloIridiologicoFragment"
+        android:label="@string/title_iris"
+        tools:layout="@layout/fragment_modelo_iridiologico" >
+        <action
+            android:id="@+id/action_modeloIridiologicoFragment_to_resultadosIaFragment"
+            app:destination="@id/resultadosIaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultadosIaFragment"
+        android:name="com.vasallo.iris.ui.resultados.ResultadosIaFragment"
+        android:label="@string/title_iris"
+        tools:layout="@layout/fragment_resultados_ia" />
+    <fragment
+        android:id="@+id/historialFragment"
+        android:name="com.vasallo.iris.ui.historial.HistorialFragment"
+        android:label="@string/btn_historial"
+        tools:layout="@layout/fragment_historial" >
+        <action
+            android:id="@+id/action_historialFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+
+
+</navigation>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".ui.resultados.ModeloIridiologicoFragment">
+
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/size_titulos"
+        android:text="Modelo Iridiologico"
+        android:gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        android:layout_weight="3">
+
+        <ImageView
+            android:id="@+id/imagenOjo"
+            android:layout_width="@dimen/ancho_fotos"
+            android:layout_height="@dimen/alto_fotos"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:background="@drawable/bordes"
+            android:src="@android:drawable/ic_menu_gallery" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="@dimen/ancho_fotos"
+            android:layout_height="@dimen/alto_fotos"
+            android:background="@drawable/bordes"
+            android:src="@drawable/mapa_iris_izdo" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="A-  Lesión abierta en glándula tiroidea" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="B- Lesión cerrada área bronquial" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="C- Diverticulo en intestino - colon descendente" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="D- Depósito de azufre " />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="E- Debilidad cardíaca" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="F- Rosario linfático débil" />
+
+    <Button
+        android:id="@+id/continuar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/botones"
+       android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:text="@string/btn_continuar" />
+</LinearLayout>
